@@ -8,7 +8,6 @@ const equalsButton = document.querySelector('.equals');
 let currentValue = "";
 let previousValue = "";
 let operator = "";
-let output = "";
 
 /*----------------------------- Event Listeners -----------------------------*/
 
@@ -32,4 +31,5 @@ clearButton.addEventListener('click', () => {
          previousValue = "";
          display.textContent = "";
 });
+
 /*-------------------------------- Functions --------------------------------*/
